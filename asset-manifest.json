@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-get-client-os/static/css/main.db2be678.css",
-    "main.js": "/react-get-client-os/static/js/main.64e2e5ea.js",
+    "main.js": "/react-get-client-os/static/js/main.a3b83cfc.js",
     "index.html": "/react-get-client-os/index.html",
     "main.db2be678.css.map": "/react-get-client-os/static/css/main.db2be678.css.map",
-    "main.64e2e5ea.js.map": "/react-get-client-os/static/js/main.64e2e5ea.js.map"
+    "main.a3b83cfc.js.map": "/react-get-client-os/static/js/main.a3b83cfc.js.map"
   },
   "entrypoints": [
     "static/css/main.db2be678.css",
-    "static/js/main.64e2e5ea.js"
+    "static/js/main.a3b83cfc.js"
   ]
 }
