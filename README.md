@@ -2,6 +2,8 @@
 
 #### `Demo:` https://dmitriyshkredov.github.io/react-get-client-os/
 
+#### `Youtube:` [Как определить клиентскую ОС в React JS](https://youtube.com/shorts/eu6A2EbWYW4)
+
 ---
 
 #### `git clone https://github.com/DmitriyShkredov/react-get-client-os.git`

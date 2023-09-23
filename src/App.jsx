@@ -2,20 +2,19 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
-  const [osName, setOsName] = useState("unknown");
+  const [os, setOs] = useState("unknown");
 
   useEffect(() => {
-    const checkOs = (agent) => {
-      if (agent.indexOf("Windows") > 0) setOsName("Windows");
-      if (agent.indexOf("Macintosh") > 0) setOsName("Macintosh");
-      if (agent.indexOf("Linux") > 0) setOsName("Linux");
-      if (agent.indexOf("Android") > 0) setOsName("Android");
-      if (agent.indexOf("iPhone") > 0) setOsName("iOS");
+    const check = (agent) => {
+      if (agent.indexOf("Windows") > 0) setOs("Windows");
+      if (agent.indexOf("Macintosh") > 0) setOs("Mac");
+      if (agent.indexOf("Linux") > 0) setOs("Linux");
+      if (agent.indexOf("Android") > 0) setOs("Android");
+      if (agent.indexOf("iPhone") > 0) setOs("iOS");
     };
-    checkOs(navigator.userAgent);
+    check(navigator.userAgent);
   }, []);
-
-  return <div className="App">Your OS: {osName}</div>;
+  return <div className="App">Your OS: {os}</div>;
 }
 
 export default App;
