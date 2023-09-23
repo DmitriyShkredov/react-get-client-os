@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-get-client-os/static/css/main.db2be678.css",
+    "main.js": "/react-get-client-os/static/js/main.929568a8.js",
+    "index.html": "/react-get-client-os/index.html",
+    "main.db2be678.css.map": "/react-get-client-os/static/css/main.db2be678.css.map",
+    "main.929568a8.js.map": "/react-get-client-os/static/js/main.929568a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db2be678.css",
+    "static/js/main.929568a8.js"
+  ]
+}
